@@ -1,7 +1,11 @@
 # twally
 Rhymes with "tally." Display a tally of streaming tweets on an LED sign.
 
+Good for trade shows, maker faires, personal affirmation, tweet-offs (are those a thing?), etc.
+
 You tell the script where the Arduino board is located and what terms you want to listen for; the script uses Twitter's streaming API to listen for tweets using those terms and keeps a count; every half-second the script tells the Arduino (via serial connection) what the current count is; the Arduino prints this count to the LED sign.
+
+![106 tweets since it started listening](http://www.dominicbordelon.com/wp-content/uploads/2015/09/twitter-sign-e1442589594594.jpg)
 
 ## Requirements
 * Arduino Uno (probably works with some other boards)
